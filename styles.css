@@ -1,0 +1,119 @@
+:root {
+  --verdark :#2d2d2d;
+  --darkgray :#3C3C3C;
+  --midgray :#4E4E4E;
+  --highgray :#606060;
+  --darkgold :#AC763A;
+  --lowgold :#C28947;
+  --midgold :#CC9A62;
+  --highgold :#D6AC7D;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+
+
+#welcomeContainer {
+  background: linear-gradient(0deg, var(--midgold), var(--midgray)20%, var(--verdark) 50%);
+  color: var(--highgold);
+  min-height: 100vh;
+  /* border: 1px solid gold; */
+}
+#welcomeRow {
+  min-height: 100vh;
+}
+
+
+
+
+#projectsContainer {
+  background: linear-gradient(0deg, var(--verdark), var(--midgold)10%, var(--highgold), var(--midgold) 80%);
+
+  color: var(--darkgray);
+  min-height: 100vh;
+  /* border: 1px dotted black; */
+}
+#projectsRow {
+  min-height: 100vh;
+}
+
+
+
+
+
+#storyContainer {
+  background: linear-gradient(0deg, var(--verdark), var(--highgray), var(--verdark));
+  color: var(--highgold);
+  min-height: 100vh;
+  /* border: 1px dashed white; */
+
+}
+#storyRow {
+  min-height: 100vh;
+}
+
+
+
+
+#contactContainer {
+  background: linear-gradient(0deg, var(--verdark), var(--highgray), var(--verdark));
+  color: var(--highgold);
+  min-height: 100vh;
+  /* border: 1px double cyan; */
+
+}
+#contactRow {
+  min-height: 95vh;
+}
+
+
+
+#footRow {
+  min-height: 5vh;
+}
+
+
+
+
+#myPhoto {
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px 5px #30303095;
+
+}
+
+
+hr {
+  width: 100%;
+  border: 1px solid var(--verdark);
+}
+
+.card {
+  background-color: var(--midgold);
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 3px 5px 1px #bb8343a8;
+}
+
+.card-footer {
+  border: none;
+  border-radius: 0;
+}
+
+
+.card-img-top {
+  border: none;
+  border-radius: 0;
+  object-fit: cover;
+  object-position: 0;
+  
+}
+
+#frontendpic {
+  object-position: 50% 50%;
+  
+}
+
